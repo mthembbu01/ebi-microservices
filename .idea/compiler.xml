@@ -34,7 +34,7 @@
       <module name="card-query" options="-parameters" />
       <module name="customer-command" options="-parameters" />
       <module name="customer-query" options="-parameters" />
-      <module name="eureka-server" options="-parameters" />
+      <module name="eureka-server" options="" />
       <module name="loan-command" options="-parameters" />
       <module name="loan-query" options="-parameters" />
     </option>
