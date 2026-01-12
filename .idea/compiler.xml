@@ -8,16 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="account-command" />
+        <module name="card-query" />
+        <module name="card-command" />
+        <module name="loan-query" />
+        <module name="eureka-server" />
         <module name="bank_z" />
         <module name="common" />
         <module name="bank_z_polling" />
         <module name="api-gateway" />
-        <module name="card-query" />
         <module name="customer-command" />
-        <module name="card-command" />
-        <module name="eureka-server" />
         <module name="account-query" />
         <module name="customer-query" />
+        <module name="loan-command" />
       </profile>
     </annotationProcessing>
   </component>
@@ -25,7 +27,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="account-command" options="-parameters" />
       <module name="account-query" options="-parameters" />
-      <module name="api-gateway" options="-parameters" />
+      <module name="api-gateway" options="" />
       <module name="bank_z" options="-parameters" />
       <module name="bank_z_polling" options="-parameters" />
       <module name="card-command" options="-parameters" />
@@ -33,6 +35,8 @@
       <module name="customer-command" options="-parameters" />
       <module name="customer-query" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="loan-command" options="-parameters" />
+      <module name="loan-query" options="-parameters" />
     </option>
   </component>
 </project>
