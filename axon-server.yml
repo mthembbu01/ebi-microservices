@@ -1,0 +1,14 @@
+version: '3'
+services:
+  axonserver:
+    image: axoniq/axonserver
+    container_name: axon-server
+    environment:
+      - AXONSERVER_NAME=EBI Axon Server
+    ports:
+      - "8024:8024"
+      - "8124:8124"
+    volumes:
+      - ./axonserver/data:/axonserver/data
+      - ./axonserver/events:/axonserver/events
+      - ./axonserver/config:/axonserver/config
